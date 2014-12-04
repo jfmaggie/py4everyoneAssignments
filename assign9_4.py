@@ -11,7 +11,9 @@ cwen@iupui.edu 5
 
 ''' 
 
-name = raw_input("Enter file:") if len(name) < 1 : name = "mbox-short.txt" handle = open(name)
+name = raw_input("Enter file:") 
+if len(name) < 1 : name = "mbox-short.txt" 
+handle = open(name)
 
 li = list()
 li_sort = list()
